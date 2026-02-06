@@ -2,6 +2,12 @@
 
 Custom theme form for web https://ipma.cz
 
+## v2.0.0
+### Changed
+- use mjml for email templates
+- drop legacy email templates
+- mautic v6.x compatibility
+
 ## v1.1.2
 ## Fixed
 - remove HTML markup from form | https://github.com/mautic/mautic/issues/13801
