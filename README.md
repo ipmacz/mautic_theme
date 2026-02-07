@@ -2,6 +2,13 @@
 
 Custom theme form for web https://ipma.cz
 
+## v2.0.3
+### Fixed
+- headings elements styles flow in email templates
+- padding correction with Mautic defaults
+### Changed
+- logo image used as a assets instead base64 encoded image in email templates
+
 ## v2.0.2
 ### Fixed
 - dynamic_content token style of ul, p, a and button elements in email templates
