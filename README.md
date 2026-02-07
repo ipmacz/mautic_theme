@@ -2,6 +2,11 @@
 
 Custom theme form for web https://ipma.cz
 
+## v2.0.2
+### Fixed
+- dynamic_content token style of ul, p, a and button elements in email templates
+- united font-size between template and Mautic CKEditor
+
 ## v2.0.1
 ### Fixed
 - dynamic_content token parsing in email templates
