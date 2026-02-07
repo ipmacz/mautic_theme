@@ -2,6 +2,10 @@
 
 Custom theme form for web https://ipma.cz
 
+## v2.0.4
+### Fixed
+- Mautic did not support `mj-attributes` (https://docs.mautic.org/en/7.0/builders/creating_themes.html)
+
 ## v2.0.3
 ### Fixed
 - headings elements styles flow in email templates
