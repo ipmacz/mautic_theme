@@ -2,6 +2,10 @@
 
 Custom theme form for web https://ipma.cz
 
+## v2.0.1
+### Fixed
+- dynamic_content token parsing in email templates
+
 ## v2.0.0
 ### Changed
 - use mjml for email templates
