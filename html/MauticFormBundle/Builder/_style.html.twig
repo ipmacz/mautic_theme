@@ -33,11 +33,16 @@ html {
 *, *::before, *::after { box-sizing: inherit; }
 
 .container-fluid.signup-form {
-  max-width: 640px;
+  max-width: 600px;
   margin: 0 auto;
   padding: 2.4rem;
   font-family: var(--ipma-font-secondary);
   color: var(--ipma-black-80);
+}
+
+/* Cap the form width (embedded core markup) so fields don't span wide screens */
+.mauticform-innerform {
+  max-width: 600px;
 }
 
 /* Headings (field-group labels render inside h2; form header in h4) */
@@ -138,18 +143,6 @@ select.custom-select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-}
-
-@media only screen and (min-width: 480px) {
-  .input-group [type="email"],
-  .input-group [type="date"],
-  .input-group [type="number"],
-  .input-group [type="password"],
-  .input-group [type="url"],
-  .input-group [type="tel"],
-  .input-group select {
-    max-width: 34rem;
-  }
 }
 
 /* Checkbox & radio groups */
