@@ -2,6 +2,17 @@
 
 Custom theme form for web https://ipma.cz
 
+## v2.1.0
+### Changed
+- form styles restyled to new IPMA brand design system
+  - brand palette (red `#E30613`) replaces legacy blue `#20458d`
+  - `Exo 2` (headings/buttons) + `Open Sans` (body) loaded via Google Fonts
+  - inputs use `8px` radius, non-italic text, red focus state
+  - labels render statically above fields (was floating-label)
+### Added
+- branded submit button styling (`.button`) for standalone form pages
+- custom checkbox/radio markers in brand red
+
 ## v2.0.4
 ### Fixed
 - Mautic did not support `mj-attributes` (https://docs.mautic.org/en/7.0/builders/creating_themes.html)
