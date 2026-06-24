@@ -76,6 +76,15 @@ label.mauticform-label {
   margin-bottom: 0.6rem;
 }
 
+/* Required marker: red asterisk after the field label */
+.mauticform-required > label.mauticform-label::after,
+.mauticform-required > label::after,
+.mauticform-required > h2::after {
+  content: " *";
+  color: var(--ipma-red);
+  font-weight: 700;
+}
+
 .mauticform-helpmessage {
   display: block;
   font-size: 1.3rem;
