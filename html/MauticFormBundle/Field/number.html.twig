@@ -1,10 +1,9 @@
-{{ include('@themes/ipma_theme/Field/text.html.twig', {
+{{ include('@themes/ipma_theme/html/MauticFormBundle/Field/text.html.twig', {
         'field': field,
         'fields': fields|default([]),
         'inForm': inForm|default(false),
-        'type': 'email',
+        'type': 'number',
         'id': id,
-        'deleted': deleted is defined,
         'formId': formId|default(0),
         'formName': formName|default(''),
 }) }}

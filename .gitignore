@@ -1,2 +1,5 @@
 /tmp/
 /.idea
+.DS_Store
+*.tar.gz
+IPMA CZ Design System.html
