@@ -2,6 +2,10 @@
 
 Custom theme form for web https://ipma.cz
 
+## v2.1.1
+### Fixed
+- missing message template
+
 ## v2.1.0
 ### Changed
 - form styles restyled to new IPMA brand design system
